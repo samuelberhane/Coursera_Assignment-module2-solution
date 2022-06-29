@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+  font-size: 35.5px;
+  margin: 30px;
+  text-align: center;
+}
+
+.main-div {
+    width: 100%;
+  }     
+
+.content-box {
+    border: 1px solid black;
+    background-color: rgb(220, 200, 220);
+    margin: 20px;
+    height: 220px;
+    position: relative;
+}
+
+.title-region {
+  border: 1px solid black;
+  font-size: 22.5px;
+  width: 150px;
+  height: 35px;
+  padding-top: 3px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.title-one {
+background-color: rgb(200, 200, 50);
+color: black;
+}
+
+.title-two {
+  background-color: rgb(200, 50, 200);
+  color: aliceblue;
+}
+
+.title-three {
+  background-color: rgb(50, 200, 200);
+  color: whitesmoke;
+}
+
+.text{
+    font-size: 18px;
+    margin: 15px;
+    margin-top: 50px;
+}
+
+/* Media Query */
+/* for Large devices */
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 33.33%;
+    float: left;
+  }
+}
+
+/* for Medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+  .col-md-12 {
+    width: 100%;
+    float: left;
+  }
+}
+
+/* for Small devices */
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+    float: left;
+  }
+}
